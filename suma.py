@@ -1,7 +1,5 @@
 import operacion
 class suma(operacion.operacion):
-    def __init__(self):
-        self.resultado = 0
 
     def operar(self):
         self.sumando1 = float(input("Ingresa el primer sumando: "))
