@@ -1,10 +1,10 @@
 from suma import *
 from resta import *
 from division import * 
-from multipli import * 
+from multipli import *
+from potencia import * 
 
-#      5=potenciación\n
-op = int(input("\nIngrese que operación desea realizar;\n 1=suma\n 2=resta\n 3=división\n 4=multiplicación\n "))
+op = int(input("\nIngrese que operación desea realizar;\n 1=suma\n 2=resta\n 3=división\n 4=multiplicación\n  5=potenciación\n"))
 
 if op == 1:
     s = suma()
@@ -21,3 +21,7 @@ if op == 3:
 if op == 4:
     d = multipli()
     d.operar()
+
+if op == 5:
+    p = potencia()
+    p.operar()
